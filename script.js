@@ -55,6 +55,8 @@ const translations = {
         "experience.job2.achievement2": "Development of REST APIs in Java (Spring Boot) and integration of the Angular front-end.",
         "experience.job2.achievement3": "User management and security with Spring Security.",
         "experience.job2.achievement4": "Data access and persistence via Spring Data JPA on a MySQL database.",
+        "experience.job2.achievement5": "Participation in functional testing and anomaly correction.",
+        
         
         // Job 3
         "experience.job3.title": "System and Network Administrator",
