@@ -17,7 +17,7 @@ Portfolio professionnel d'Asma CHOUAIBI, Ingénieure Informatique.
 - Visualisation des diplômes
 
 ## 🔗 Liens
-- 🌐 **Site en ligne** : [https://asmachoueibi.github.io/portfolio/](https://asmachoueibi.github.io/portfolio/)
+- 🌐 **Site en ligne** : [asmachoueibi.github.io/Portfolio/](https://asmachoueibi.github.io/Portfolio/)
 - 💼 **LinkedIn** : [linkedin.com/in/asma-chouaibi](https://www.linkedin.com/in/asma-chouaibi/)
 - 💻 **GitHub** : [github.com/AsmaChoueibi](https://github.com/AsmaChoueibi)
 
