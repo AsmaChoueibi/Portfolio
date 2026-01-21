@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asma CHOUAIBI | Ingénieure Informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+</head>
+<body>
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar">
+        <!-- Language Switcher in Top Right of Sidebar -->
+        <div class="language-switcher">
+            <button class="lang-btn active" data-lang="fr" title="Français">
+                <span class="flag-icon flag-icon-fr"></span>
+            </button>
+            <button class="lang-btn" data-lang="en" title="English">
+                <span class="flag-icon flag-icon-gb"></span>
+            </button>
+        </div>
+        
+        <div class="profile">
+            <img src="assets/images/asmap_photo.png" alt="Asma CHOUAIBI">
+            <h2 data-i18n="name">Asma CHOUAIBI</h2>
+            <p data-i18n="title">Ingénieure Informatique</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav.home"><i class="fas fa-home"></i> <span>Accueil</span></a></li>
+            <li><a href="#about" data-i18n="nav.about"><i class="fas fa-user"></i> <span>À propos</span></a></li>
+            <li><a href="#experience" data-i18n="nav.experience"><i class="fas fa-briefcase"></i> <span>Expérience</span></a></li>
+            <li><a href="#education" data-i18n="nav.education"><i class="fas fa-graduation-cap"></i> <span>Éducation</span></a></li>
+            <li><a href="#skills" data-i18n="nav.skills"><i class="fas fa-code"></i> <span>Compétences</span></a></li>
+            <li><a href="#languages" data-i18n="nav.languages"><i class="fa-solid fa-language"></i> <span>Langues</span></a></li>
+            <li><a href="#projects" data-i18n="nav.projects"><i class="fa-solid fa-folder-open"></i> <span>Projets</span></a></li>
+            <li><a href="#campus" data-i18n="nav.campus"><i class="fas fa-users"></i> <span>Implication</span></a></li>
+            <li><a href="#courses" data-i18n="nav.courses"><i class="fas fa-certificate"></i> <span>Certifications</span></a></li>
+            <li><a href="#contact" data-i18n="nav.contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <h1 data-i18n="hero.greeting">Bonjour, je suis <span class="highlight">Asma CHOUAIBI</span></h1>
+                <h2 data-i18n="hero.subtitle">Ingénieure Informaique (Développeuse FullStack Web / Cloud et Devops / Passionnée d'IA)</h2>
+                <a href="#contact" class="btn" data-i18n="hero.cta">Contactez-moi</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title" data-i18n="about.title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.para1">Je suis une jeune ingénieure informatique passionnée et récemment diplômée, avec une expérience professionnelle variée acquise à travers plusieurs stages en entreprise. Mon parcours combine à la fois une solide formation académique et une pratique concrète du développement dans différents environnements.</p>
+                    <p data-i18n="about.para2">Je communique facilement en français et en anglais, ce qui me permet de travailler efficacement dans des contextes internationaux. Dotée d'une grande curiosité intellectuelle, j'aime apprendre en continu et m'adapter aux nouvelles technologies. Mon expérience en travail d'équipe, renforcée par mon engagement associatif, m'a enseigné l'importance de la collaboration et de l'écoute pour mener des projets à succès.</p>
+
+                    <p data-i18n="about.para3">Je recherche aujourd'hui à rejoindre une équipe dynamique où je pourrais contribuer à des projets innovants tout en continuant à développer mes compétences dans un environnement stimulant et bienveillant.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span data-i18n="about.email">Email:</span>
+                            <span>asma.choueibi@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="about.location">Localisation:</span>
+                            <span data-i18n="about.location.value">Tunis, Tunisie</span>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="about.availability">Disponibilité:</span>
+                            <span data-i18n="about.availability.value">Ouverte aux opportunités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title" data-i18n="experience.title">Expérience Professionnelle</h2>
+            <div class="timeline">
+                
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">02/2025 – 08/2025</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage PFE</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job1.title">Développeuse Web Java(Spring) | Low-Code</h3>
+                            <h4 data-i18n="experience.job1.company">Wevioo, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job1.achievement1">Analyse des besoins métiers, conception et développement d'une application métier de gestion de projets basée sur la plateforme
+Low-Code Joget DX 8, avec personnalisation de la logique applicative et développement de composants spécifiques en Java.</li>
+                                <li data-i18n="experience.job1.achievement2">Transformation de l'application web en application mobile Android via Apache Cordova, avec automatisation de la génération des
+APK à l'aide d'un pipeline CI/CD GitHub Actions.</li>
+                                <li data-i18n="experience.job1.achievement3">Développement d'interfaces utilisateur spécifiques en HTML, CSS et JavaScript.</li>
+                           
+                            <li data-i18n="experience.job1.achievement4">Développement d'un plugin personnalisé en Java (Spring) pour l'envoi de notifications push su téléphone via Firebase.</li>
+                          
+                            <li data-i18n="experience.job1.achievement5">Développement de scripts Java (BeanShell) exécutant des requêtes SQL pour l'extraction et la transformation des données en JSON.</li>
+                            
+                            <li data-i18n="experience.job1.achievement6">Analyse des données collectées et visualisation d'indicateurs clés (KPI) à l'aide de Chart.js pour le suivi et l'aide à
+la décision.</li>
+                            
+                            <li data-i18n="experience.job1.achievement7">Travail en environnement Agile SCRUM, avec collaboration étroite avec les équipes métier (user stories, sprints, réunions).</li>
+                          
+                            <li data-i18n="experience.job1.achievement8">Participation aux tests fonctionnels, à la correction des anomalies, à la maintenance applicative et aux ajustements selon les
+retours utilisateurs.</li>
+                            </ul>
+
+                            
+                            <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JSON</span>
+                                <span class="tech-tag">Spring</span>
+                                <span class="tech-tag">Joget DX8</span>
+                                <span class="tech-tag">Low-code/No-Code</span>
+                                <span class="tech-tag">Développement Web</span>
+                                <span class="tech-tag">Développement Mobile Android</span>
+                                <span class="tech-tag">Apache Cordova</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">CI/CD</span>
+                                <span class="tech-tag">Github Actions</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Méthode Agile SCRUM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fas fa-laptop-code"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">06/2024 – 08/2024</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job2.title">Développeuse Web FullStack Java(Spring Boot)/Angular</h3>
+                            <h4 data-i18n="experience.job2.company">Sage Tunisia, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job2.achievement1">Analyse des besoin métiers, conception et développement diune application web full-stack de gestion des absences et des congés des employés.</li>
+                                <li data-i18n="experience.job2.achievement2">Développement d'API REST en Java (Spring Boot) et intégration du front-end Angular.</li>
+                                <li data-i18n="experience.job2.achievement3">Gestion des utilisateurs et de la sécurité avec Spring Security.</li>
+                                <li data-i18n="experience.job2.achievement4">Accès et persistance des données via Spring Data JPA sur une base MySQL.</li>
+                                <li data-i18n="experience.job2.achievement4">Participation aux tests fonctionnels et à la correction des anomalies.</li>
+                            </ul>
+                            
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Postman</span>
+                                <span class="tech-tag">Développement Web FullStack</span>
+                                <span class="tech-tag">Spring Security</span>
+                                <span class="tech-tag">Spring Data JPA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fa-solid fa-network-wired"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">06/2023 – 08/2023</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job3.title">Administrateur système et réseau</h3>
+                            <h4 data-i18n="experience.job3.company">Marquardt Tunisia, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job3.achievement1">Configuration et déploiement de Switchs Cisco 2960 pour l'infrastructure réseau de l'entreprise.</li>
+                                <li data-i18n="experience.job3.achievement2">Mise en place d'une supervision réseau avec Nagios pour le monitoring des Switchs.</li>
+                                <li data-i18n="experience.job3.achievement3">Développement de scripts d'automatisation (AutoIt) pour la configuration et le déploiement des postes de travail.</li>
+                            </ul>
+                            
+
+                            <div class="tech-tags">
+                                <span class="tech-tag">Nagios</span>
+                                <span class="tech-tag">SSH</span>
+                                <span class="tech-tag">Telnet</span>
+                                <span class="tech-tag">Putty</span>
+                                <span class="tech-tag">Cisco</span>
+                                <span class="tech-tag">AutoIt</span>
+                                <span class="tech-tag">Switching</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fa-solid fa-chart-area"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">02/2022 – 05/2022</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage PFE</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job4.title">Analyste de données | Business intelligence</h3>
+                            <h4 data-i18n="experience.job4.company">Gérance Informatique, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job4.achievement1">Développement d'une application Splunk dédiée à la collecte, centralisation et analyse des données de
+performance système (Windows et Linux).</li>
+                                <li data-i18n="experience.job4.achievement2">Implémentation de scripts PowerShell et Bash pour la collecte des logs de performance des systèmes.</li>
+                                <li data-i18n="experience.job4.achievement3"> Mise en place d'un Data Lake pour le stockage et l'organisation des logs système.</li>
+                                <li data-i18n="experience.job4.achievement4">Analyse des données collectées et création de dashboards interactifs, rapports automatisés et alertes en temps
+réel sur Splunk</li>
+                                <li data-i18n="experience.job4.achievement5">Gestion du projet selon la méthode Agile Scrum BI</li>
+                            </ul>
+                             
+                            <div class="tech-tags">
+                                <span class="tech-tag">Splunk</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">XML</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">ELT</span>
+                                <span class="tech-tag">Scrum</span>
+                                <span class="tech-tag">Bash</span>
+                                <span class="tech-tag">PowerShell</span>
+                                <span class="tech-tag">Analyse des données</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <h2 class="section-title" data-i18n="education.title">Éducation</h2>
+    <div class="education-grid">
+        
+        <!-- Education 1: Diplôme National d'Ingénieur -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3 data-i18n="education.degree3.title">Diplôme National d'Ingénieur en Informatique</h3>
+            <h4 data-i18n="education.degree3.school">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+            <p class="edu-date">Séptembre 2022 - Séptembre 2025</p>
+            <p class="edu-desc" data-i18n="education.degree3.details">Spécialité: Développement Web, Cloud & DevOps | Mention: Très  Bien | Moyenne : 16.03</p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/diplome_page-0001.jpg">
+                    <img src="assets/images/diplome_page-0001.jpg" alt="Diplôme d'Ingénieur" data-i18n-alt="education.diploma3.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Education 2: Licence en Informatique de Gestion -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <h3 data-i18n="education.degree2.title">Licence National en Informatique de Gestion</h3>
+            <h4 data-i18n="education.degree2.school">Institut Supérieur de Gestion de Tunis (ISGT)</h4>
+            <p class="edu-date">Séptembre 2019 - Juin 2022</p>
+            <p class="edu-desc" data-i18n="education.degree2.details">Spécialisation:Informaique Décisionnelle (BI) | Mention: Bien | Moyenne : 15.34 </p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/DipISG.jpg">
+                    <img src="assets/images/DipISG.jpg" alt="Licence en Informatique de Gestion" data-i18n-alt="education.diploma2.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Education 3: Bac Sciences Expérimentales -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 data-i18n="education.degree3.title">Baccalauréat Sciences Expérimentales</h3>
+            <h4 data-i18n="education.degree3.school">Lycée Bardo</h4>
+            <p class="edu-date">Séptembre 2014 - Juin 2018</p>
+            <p class="edu-desc" data-i18n="education.degree3.details">Mention: Bien | Moyenne 14.55</p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/BAC.jpg">
+                    <img src="assets/images/BAC.jpg" alt="Baccalauréat Sciences Expérimentales" data-i18n-alt="education.diploma1.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Lightbox Modal (Add this right before closing </body> tag) -->
+<div id="diploma-lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" src="" alt="Diploma">
+        <div class="lightbox-caption"></div>
+    </div>
+</div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title" data-i18n="skills.title">Compétences</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category">
+                    <h3 data-i18n="skills.langages">Langages de programmation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java 21</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.frontend">Framework de développement Web Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">React</span>
+
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.backend">Framework de développement Web Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Symfony </span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">.Net Core</span>
+                        
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.BD">Bases de données</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PL/SQL </span>
+                        <span class="skill-tag">NoSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 data-i18n="skills.devops">Cloud, DevOps & CI/CD</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker Compose</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Github Actions</span>
+                        <span class="skill-tag">Ansible</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Nexus</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">Openstack</span>
+                        <span class="skill-tag">Microsoft Azure(Basique)</span>
+                        <span class="skill-tag">Azure Kubernetes Service (AKS)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.administration">Administration sytème et réseau</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows</span>
+                        <span class="skill-tag">Linux(Ubuntu) </span>
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Nagios</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.agile">Méthodes Agile</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">Kanban</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.analyse">Analyse des données</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft PowerBI</span>
+                        <span class="skill-tag">Chart JS</span>
+                        <span class="skill-tag">ELT/ETL</span>
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag">Talend</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.tests">Tests & Assurance Qualité</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Tests API (Postman, Swagger)</span>
+                        <span class="skill-tag">Tests Unitaires & Couverture(JUnit et JaCoCo)</span>
+                        <span class="skill-tag">Tests Fonctionnels </span>
+                        <span class="skill-tag">Sonarqube</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- Languages Section -->
+<section id="languages" class="section">
+    <h2 class="section-title" data-i18n="languages.title">Langues</h2>
+    <div class="languages-container">
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-tn"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.arabic">Arabe</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.native">Langue maternelle</span>
+        </div>
+        
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-fr"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.french">Français</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.b2">Niveau B2</span>
+        </div>
+        
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-gb"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.english">Anglais</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.b2">Niveau B2</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title" data-i18n="projects.title">Projets Académiques</h2>
+    <div class="timeline">
+        
+        <!-- Projet 1: DevOps -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-infinity"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">10/2024 – 11/2024</span>
+                        <span class="job-type-tag">Projet DevOps</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project1.title">Pipeline CI/CD DevOps avec Jenkins</h3>
+                    <h4 data-i18n="projects.project1.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project1.description">Implémentation d'un pipeline CI/CD complet pour une application Spring Boot, automatisant l'intégration, les tests, la sécurité, la conteneurisation et le déploiement avec monitoring en temps réel.</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                    <ul>
+                        <li data-i18n="projects.project1.achievement1">Jenkins : Orchestration complète du pipeline CI/CD.</li>
+                        <li data-i18n="projects.project1.achievement2">Git : Gestion de versions et intégration continue.</li>
+                        <li data-i18n="projects.project1.achievement3">JUnit : Tests unitaires automatisés avec rapport de couverture de code.</li>
+                        <li data-i18n="projects.project1.achievement4">SonarQube : Analyse statique de code et métriques de qualité en continu.</li>
+                        <li data-i18n="projects.project1.achievement5">Docker : Conteneurisation de l'application Spring Boot.</li>
+                        <li data-i18n="projects.project1.achievement6">Docker Compose : Orchestration du contenaire Docker.</li>
+                        <li data-i18n="projects.project1.achievement7">Nexus : Gestion centralisée des artefacts et image Docker.</li>
+                        <li data-i18n="projects.project1.achievement8">Prometheus : Collecte et monitoring des métriques applicatives.</li>
+                        <li data-i18n="projects.project1.achievement6">Grafana : Visualisation des dashboards de performance et santé.</li>
+                        <li data-i18n="projects.project1.achievement10">Trivy : Scan de sécurité de l'image Docker.</li>
+                    </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fas fa-file-code"></i>
+                            <span>Jenkinsfile : </span>
+                            <button class="view-jenkinsfile-btn" data-i18n="projects.view.code">
+                                <i class="fas fa-eye"></i> Voir le code
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Jenkins</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Docker Compose</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">CI/CD</span>
+                        <span class="tech-tag">Nexus</span>
+                        <span class="tech-tag">Trivy</span>
+                        <span class="tech-tag">Sonarqube</span>
+                        <span class="tech-tag">JUnit</span>
+                        <span class="tech-tag">JaCoCo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 2: Full Stack Web -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-users"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">10/2023 – 04/2024</span>
+                        <span class="job-type-tag">Projet de développement Web Full Stack</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project2.title">Projet d'intégration Cloud et développement Web FullStack(Java/Angular)</h3>
+                    <h4 data-i18n="projects.project2.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project2.description">Création d'une infrastructure cloud privée avec d'OpenStack, développement d'une application web full-stack pour la collaboration et l'entraide entre les étudiants d'ESPRIT, déploiement de l'application sur Kubernetes (OpenStack) et sur Azure Kubernetes Service(AKS).</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                    <ul>
+                        <li data-i18n="projects.project2.achievement1">Infrastructure Cloud privée avec les services d'Openstack (Horizon, Magnum, Heat, Neutron...).</li>
+                        <li data-i18n="projects.project2.achievement2">Développement d'API REST coté backend avec Spring Boot.</li>
+                        <li data-i18n="projects.project2.achievement3">Test des API REST avec Postaman.</li>
+                        <li data-i18n="projects.project2.achievement4">Développemnt des interfaces utilisateurs avec Angular et integration avec le backend.</li>
+                        <li data-i18n="projects.project2.achievement5">Gestion des versions et collaboration avec Git.</li>
+                        <li data-i18n="projects.project2.achievement6">Conteneurisation de l'application avec Docker et Docker compose.</li>
+                         <li data-i18n="projects.project2.achievement5">Déploiement de l'application multi-conteneurs sur le cluster Kubernetes (Openstack) et sur Azure Kubernetes Service (AKS).</li>
+                    </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fab fa-github"></i>
+                            <span>Repository GitHub : </span>
+                            <a href="https://github.com/AsmaChoueibi" target="_blank" class="evidence-link" data-i18n="projects.view.github">
+                                <i class="fas fa-external-link-alt"></i> Voir le code source
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Java 21</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Spring Security</span>
+                        <span class="tech-tag">Spring Data JPA</span>
+                        <span class="tech-tag">API REST</span>
+                        <span class="tech-tag">Angular 15</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Kubernetesn</span>
+                        <span class="tech-tag">Openstack</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Docker Compose</span>
+                        <span class="tech-tag">Azure Kubernetes Service</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 3: Symfony & JavaFX -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-flag-checkered"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">02/2023 – 05/2023</span>
+                        <span class="job-type-tag">Projet de développement</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project3.title">Projet de développemnt Web et Desktop</h3>
+                    <h4 data-i18n="projects.project3.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project3.description">Développemnt d'un application web et desktop pour l'organisation et la getion descourses de voitures.</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                    <ul>
+                        <li data-i18n="projects.project3.achievement1">Développemnt de l'application web Symfony 5 avec architecture MVC</li>
+                        <li data-i18n="projects.project3.achievement2">Développemnt de l'application desktop avec JavaFX avec interface moderne</li>
+                        <li data-i18n="projects.project3.achievement3">Synchronisation entre l'application web et desktop</li>
+                    </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fab fa-github"></i>
+                            <span>Repository GitHub : </span>
+                            <a href="https://github.com/AsmaChoueibi" target="_blank" class="evidence-link" data-i18n="projects.view.github">
+                                <i class="fas fa-external-link-alt"></i> Voir le code source
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Symfony 5</span>
+                        <span class="tech-tag">PHP 8</span>
+                        <span class="tech-tag">Twig</span>
+                        <span class="tech-tag">JavaFX</span>
+                        <span class="tech-tag">Java 21</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">API REST</span>
+                        <span class="tech-tag">Bootstrap 5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Lightbox pour afficher le Jenkinsfile (ajoutez après le lightbox des diplômes) -->
+<div id="jenkinsfile-lightbox" class="lightbox">
+    <div class="lightbox-content jenkinsfile-lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="jenkinsfile-header">
+            <h3>Jenkinsfile</h3>
+            <button class="copy-jenkinsfile-btn">
+                <i class="fas fa-copy"></i> Copier
+            </button>
+        </div>
+        <pre><code class="jenkinsfile-code">pipeline {
+    agent any
+    environment {
+        DOCKERHUB = credentials('dockerHub') 
+        IMAGE_TAG = "1.1.${BUILD_NUMBER}"
+        SONAR = tool 'sonar-scanner'
+       
+    }
+
+    stages {
+        stage('GIT') {
+            steps {
+                git branch: 'Bloc', url: ''
+            }
+        }
+        
+        stage('MAVEN CLEAN') {
+            steps {
+                sh "mvn clean"
+            }
+        }
+        
+        stage('MAVEN COMPILE') {
+            steps {
+                sh "mvn compile"
+            }
+        }
+        
+        stage('JUNIT/MOCKITO') {
+            steps {
+                echo 'Test du code : ';
+                sh "mvn test"
+            }
+        }
+        
+        
+        stage('MVN SONARQUBE') {
+            steps {
+                echo 'Analyse de la qualité du code : ';
+                withCredentials([ 
+                    string(credentialsId: 'SonarURL', variable: 'Sonar_URL'), 
+                    string(credentialsId: 'SonarID', variable: 'Sonar_ID') 
+                ]) { 
+                    
+                    sh "mvn org.jacoco:jacoco-maven-plugin:0.8.11:report"
+                    sh '''$SONAR/bin/sonar-scanner -X \
+                        -Dsonar.host.url=${Sonar_URL} \
+                        -Dsonar.token=${Sonar_ID} \
+                        -Dsonar.projectName=tpfoyerDevops \
+                        -Dsonar.java.binaries=target/classes \
+                        -Dsonar.projectKey=tpfoyerDevops \
+                        -Dsonar.jacoco.reportPaths=target/jacoco.exec \
+                        -Dsonar.jacoco.reportPath=target/site/jacoco/jacoco.xml'''
+                }
+
+            }
+        }
+        
+        stage('MVN PACKAGE') {
+            steps {
+                echo 'Package du code : ';
+                sh "mvn package"
+            }
+        }
+        
+        stage('NEXUS') {
+            steps {
+                echo 'Deployment sur Nexus : ';
+                sh "mvn deploy"
+            }
+        }
+        
+        stage('DOCKER IMAGE') {
+            steps {
+                echo 'Building docker image : ';
+                sh "docker build  -t asmachoueibi/tpfoyer:1.1.${env.BUILD_NUMBER} ."
+            }
+        }
+        
+        stage("DOCKER HUB") {
+            steps {
+                echo "Connecting and Pushing Docker image to DockerHub : "
+                sh 'echo $DOCKERHUB_PSW | docker login -u $DOCKERHUB_USR --password-stdin'
+                sh "docker push asmachoueibi/tpfoyer:1.1.${env.BUILD_NUMBER}"
+            }
+        }
+        
+        stage('DOCKER COMPOSE') {
+            steps {
+                echo 'Starting Docker compose : ';
+                sh 'docker compose up -d'
+            }
+        }
+        
+        stage('TRIVY SCAN') {
+           steps {
+               echo 'Scanning Docker image with Trivy : '
+               sh 'trivy image --timeout 30m --format table --security-checks vuln --ignore-unfixed -o trivy-scan-report.html asmachoueibi/tpfoyer:1.1.${BUILD_NUMBER}'
+               archiveArtifacts artifacts: 'trivy-scan-report.html', allowEmptyArchive: true
+           }
+}
+
+
+
+ 
+    }
+}</code></pre>
+    </div>
+</div>
+
+
+
+
+<!-- Campus Involvement Section -->
+<section id="campus" class="section">
+    <h2 class="section-title" data-i18n="campus.title">Vie associative</h2>
+    <div class="involvement-grid">
+        <!-- AIESEC Experience -->
+        <div class="involvement-card">
+            <div class="card-header">
+                <i class="fas fa-globe"></i>
+                <h3 data-i18n="campus.aiesec.title">AIESEC Tunis - Comité Local Bardo</h3>
+            </div>
+            <p class="role" data-i18n="campus.aiesec.duration">Membre Actif | 2021 - 2023</p>
+            
+            <div class="aiesec-details">
+                <!-- Première Année -->
+                       <div class="year-experience">
+                    <h4 data-i18n="campus.aiesec.year2.title">2022-2023 : Département Talent Acquisition</h4>
+                    <p class="sub-role" data-i18n="campus.aiesec.year2.role">Talent Acquisition Manager</p>
+                    <ul>
+                        <li data-i18n="campus.aiesec.year2.task1">Gestion complète du processus de recrutement Gestion du recrutement.</li>
+                        <li data-i18n="campus.aiesec.year2.task2">Intégration et du suivi des membres</li>
+                        <li data-i18n="campus.aiesec.year2.task3">Mise en place de programmes de mentorat pour le développement des talents</li>
+                    </ul>
+                </div>
+        
+                
+                <!-- Deuxième Année -->
+                 <div class="year-experience">
+                    <h4 data-i18n="campus.aiesec.year1.title">2021-2022 : Département Business Development & Sponsoring</h4>
+                    <p class="sub-role" data-i18n="campus.aiesec.year1.role">Membre - Chargée de Partenariats</p>
+                    <ul>
+                        <li data-i18n="campus.aiesec.year1.task1">Réalisation d'études de marché pour identifier les entreprises partenaires potentielles</li>
+                        <li data-i18n="campus.aiesec.year1.task2">Prise de contact téléphonique avec les entreprises</li>
+                        <li data-i18n="campus.aiesec.year1.task3">Organisation de réunions de partenariat et présentation des avantages AIESEC</li>
+                    
+                    </ul>
+                </div>
+          
+            </div>
+        </div>
+    
+        
+    </div>
+</section>
+
+       <!-- Courses & Certifications Section -->
+<section id="courses" class="section">
+    <h2 class="section-title" data-i18n="courses.title">Cours & Certifications</h2>
+    <div class="certifications-grid">
+        
+        <!-- Microsoft AZ-900 - 3 PDFs à télécharger -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <h3 data-i18n="courses.cert1.title">Microsoft Azure Fundamentals Courses(AZ-900)</h3>
+            <p data-i18n="courses.cert1.issuer">Coursera | 2024</p>
+            
+            <div class="pdf-downloads">
+                <button class="download-pdf-btn" data-pdf="az900-module1.pdf">
+                    <i class="fas fa-file-pdf"></i> Module 1
+                </button>
+                <button class="download-pdf-btn" data-pdf="az900-module2.pdf">
+                    <i class="fas fa-file-pdf"></i> Module 2
+                </button>
+                <button class="download-pdf-btn" data-pdf="az900-module3.pdf">
+                    <i class="fas fa-file-pdf"></i> Module 3
+                </button>
+                <button class="download-pdf-btn" data-pdf="az900-module4.pdf">
+                    <i class="fas fa-file-pdf"></i> Module 4
+                </button>
+            </div>
+        </div>
+        
+        <!-- Honoris Certificate - avec lien externe -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fas fa-award"></i>
+            </div>
+            <h3 data-i18n="courses.cert2.title">Honoris Sustainability, Work Ethics & Gender Equity</h3>
+            <p data-i18n="courses.cert2.issuer">Honoris Online Academy | 2024</p>
+            <a href="https://certificate.bcdiploma.com/check/1071416862C93AC1EB4C92409C546013A52F7D33CCBA12136076517E3FB6F66FbU15bk1YTnZKUkQ2ZGVZR2o2SmVXaWtNUW5kQWp0eGkxYjJqaXEwakFVRXZoVm9a" 
+               class="cert-link" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               data-i18n="courses.view">
+                <i class="fas fa-external-link-alt"></i> Voir le certificat
+            </a>
+        </div>
+        
+    </div>
+</section>
+   <!-- Contact Section -->
+<section id="contact" class="section">
+    <h2 class="section-title" data-i18n="contact.title">Contactez-moi</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3 data-i18n="contact.email">Email</h3>
+                    <a href="mailto:asma.choueibi@gmail.com" class="contact-link">asma.choueibi@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h3 data-i18n="contact.phone">Téléphone</h3>
+                    <a href="tel:+21652599464" class="contact-link">+216 52 599 464</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h3 data-i18n="contact.location">Localisation</h3>
+                    <p data-i18n="contact.location.value">Tunis, Tunisie</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/asma-chouaibi/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        linkedin.com/in/asma-chouaibi
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Vous pouvez ajouter un call-to-action ici si vous voulez -->
+        <div class="contact-cta">
+            <h3 data-i18n="contact.availability">Disponibilité</h3>
+            <p data-i18n="contact.availability.value">Ouverte aux opportunités en développement Full-Stack, Cloud/DevOps et IA</p>
+            <p class="contact-note" data-i18n="contact.note">N'hésitez pas à me contacter par email ou LinkedIn pour discuter de collaborations ou opportunités.</p>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
