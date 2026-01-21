@@ -353,7 +353,7 @@ const translations = {
         "campus.aiesec.duration": "Membre Actif | 2021 - 2023",
         "campus.aiesec.year2.title": "2022-2023 : Département Talent Acquisition",
         "campus.aiesec.year2.role": "Talent Acquisition Manager",
-        "campus.aiesec.year2.task1": "Gestion complète du processus de recrutement Gestion du recrutement.",
+        "campus.aiesec.year2.task1": "Gestion complète du processus de recrutement.",
         "campus.aiesec.year2.task2": "Intégration et du suivi des membres",
         "campus.aiesec.year2.task3": "Mise en place de programmes de mentorat pour le développement des talents",
         "campus.aiesec.year1.title": "2021-2022 : Département Business Development & Sponsoring",
