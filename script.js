@@ -93,7 +93,7 @@ const translations = {
         
         // Degree 3
         "education.degree3.title": "Baccalaureate in Experimental Sciences",
-        "education.degree3.school": "Lycée Bardo",
+        "education.degree3.school": "Bardo High School",
         "education.degree3.details": "Honors: Good | GPA: 14.55",
         
         // Skills Section
@@ -168,7 +168,7 @@ const translations = {
         "campus.aiesec.year2.task2": "Integration and follow-up of members.",
         "campus.aiesec.year2.task3": "Implementation of mentoring programs for talent development.",
         "campus.aiesec.year1.title": "2021-2022: Business Development & Sponsoring Department",
-        "campus.aiesec.year1.role": "Member - Partnership Officer",
+        "campus.aiesec.year1.role": "Member - Business Development and Sales",
         "campus.aiesec.year1.task1": "Market research to identify potential partner companies.",
         "campus.aiesec.year1.task2": "Telephone contact with companies.",
         "campus.aiesec.year1.task3": "Organization of partnership meetings and presentation of AIESEC benefits.",
@@ -334,7 +334,7 @@ const translations = {
         "projects.project2.achievement1": "Infrastructure Cloud privée avec les services d'Openstack (Horizon, Magnum, Heat, Neutron...).",
         "projects.project2.achievement2": "Développement d'API REST coté backend avec Spring Boot.",
         "projects.project2.achievement3": "Test des API REST avec Postaman.",
-        "projects.project2.achievement4": "Développemnt des interfaces utilisateurs avec Angular et integration avec le backend.",
+        "projects.project2.achievement4": "Développement des interfaces utilisateurs avec Angular et integration avec le backend.",
         "projects.project2.achievement5": "Gestion des versions et collaboration avec Git.",
         "projects.project2.achievement6": "Conteneurisation de l'application avec Docker et Docker compose.",
         "projects.project2.achievement7": "Déploiement de l'application multi-conteneurs sur le cluster Kubernetes (Openstack) et sur Azure Kubernetes Service (AKS).",
@@ -342,9 +342,9 @@ const translations = {
         // Project 3
         "projects.project3.title": "Projet de développemnt Web et Desktop",
         "projects.project3.subtitle": "École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)",
-        "projects.project3.description": "Développemnt d'un application web et desktop pour l'organisation et la getion descourses de voitures.",
-        "projects.project3.achievement1": "Développemnt de l'application web Symfony 5 avec architecture MVC",
-        "projects.project3.achievement2": "Développemnt de l'application desktop avec JavaFX avec interface moderne",
+        "projects.project3.description": "Développement d'un application web et desktop pour l'organisation et la getion des courses de voitures.",
+        "projects.project3.achievement1": "Développement de l'application web Symfony 5 avec architecture MVC",
+        "projects.project3.achievement2": "Développement de l'application desktop avec JavaFX avec interface moderne",
         "projects.project3.achievement3": "Synchronisation entre l'application web et desktop",
         
         // Campus Involvement Section
